@@ -91,10 +91,10 @@ podku
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "ZZCategory/*.{h,m}"
-  spec.exclude_files = "ZZCategory/Exclude"
+  spec.source_files  = "BadView/ZZCategory/*.{h,m}"
+  spec.exclude_files = "BadView/ZZCategory/Exclude"
 
-  spec.public_header_files = "ZZCategory/*.h"
+  spec.public_header_files = "BadView/ZZCategory/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -107,7 +107,10 @@ podku
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
-
+  spec.resource_bundles = {
+     'ZZBundle' => ['BadView/ZZCategory/**/*.png','BadView/ZZCategory/Assets/*.png']
+ }
+	
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 

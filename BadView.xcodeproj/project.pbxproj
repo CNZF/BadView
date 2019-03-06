@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046379CC8E3A9D5DD860F60C /* libPods-BadView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B659957238FE776AFC399C62 /* libPods-BadView.a */; };
 		8959F216222FBF7100B3D5CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959F215222FBF7100B3D5CD /* AppDelegate.m */; };
 		8959F219222FBF7100B3D5CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959F218222FBF7100B3D5CD /* ViewController.m */; };
 		8959F21C222FBF7100B3D5CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8959F21A222FBF7100B3D5CD /* Main.storyboard */; };
@@ -51,6 +52,9 @@
 		8959F234222FBF7300B3D5CD /* BadViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8959F238222FBF7300B3D5CD /* BadViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BadViewUITests.m; sourceTree = "<group>"; };
 		8959F23A222FBF7300B3D5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DDD07756BF425DD4B904A74 /* Pods-BadView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadView.debug.xcconfig"; path = "Target Support Files/Pods-BadView/Pods-BadView.debug.xcconfig"; sourceTree = "<group>"; };
+		B659957238FE776AFC399C62 /* libPods-BadView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BadView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D36814904AB8C22491ACB0 /* Pods-BadView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadView.release.xcconfig"; path = "Target Support Files/Pods-BadView/Pods-BadView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046379CC8E3A9D5DD860F60C /* libPods-BadView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				8959F22C222FBF7300B3D5CD /* BadViewTests */,
 				8959F237222FBF7300B3D5CD /* BadViewUITests */,
 				8959F212222FBF7100B3D5CD /* Products */,
+				8B03B99EB593B116F723691C /* Pods */,
+				AA8B632B18B29EEC25DAAD46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +139,24 @@
 			path = BadViewUITests;
 			sourceTree = "<group>";
 		};
+		8B03B99EB593B116F723691C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DDD07756BF425DD4B904A74 /* Pods-BadView.debug.xcconfig */,
+				E5D36814904AB8C22491ACB0 /* Pods-BadView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA8B632B18B29EEC25DAAD46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B659957238FE776AFC399C62 /* libPods-BadView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8959F23D222FBF7300B3D5CD /* Build configuration list for PBXNativeTarget "BadView" */;
 			buildPhases = (
+				D4017B1124A3CD84132EEDEC /* [CP] Check Pods Manifest.lock */,
 				8959F20D222FBF7100B3D5CD /* Sources */,
 				8959F20E222FBF7100B3D5CD /* Frameworks */,
 				8959F20F222FBF7100B3D5CD /* Resources */,
+				4159D4C4B007DFA96D6F9A53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4159D4C4B007DFA96D6F9A53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BadView/Pods-BadView-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BadView/Pods-BadView-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BadView/Pods-BadView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4017B1124A3CD84132EEDEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BadView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8959F20D222FBF7100B3D5CD /* Sources */ = {
@@ -433,6 +502,7 @@
 		};
 		8959F23E222FBF7300B3D5CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDD07756BF425DD4B904A74 /* Pods-BadView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +521,7 @@
 		};
 		8959F23F222FBF7300B3D5CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D36814904AB8C22491ACB0 /* Pods-BadView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
