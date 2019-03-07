@@ -1,5 +1,5 @@
 {
-  "name": "ZZCategory",
+  "name": "ZZLxyCategory",
   "version": "1.0.1",
   "summary": "三方",
   "description": "podku",
@@ -15,12 +15,12 @@
     "git": "https://github.com/CNZF/BadView.git",
     "tag": "1.0.1"
   },
-  "source_files": "BadView/ZZCategory/*.{h,m}",
-  "exclude_files": "BadView/ZZCategory/Exclude",
-  "public_header_files": "BadView/ZZCategory/*.h",
+  "source_files": "BadView/ZZLxyCategory/*.{h,m}",
+  "exclude_files": "BadView/ZZLxyCategory/Exclude",
+  "public_header_files": "BadView/ZZLxyCategory/*.h",
   "resource_bundles": {
     "ZZBundle": [
-      "BadView/ZZCategory/**/*.xcassets",
+      "BadView/ZZLxyCategory/*.xcassets",
       "BadView/*.lproj"
     ]
   },

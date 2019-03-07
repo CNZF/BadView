@@ -1,16 +1,16 @@
 PODS:
-  - ZZCategory (1.0.1)
+  - ZZLxyCategory (1.0.1)
 
 DEPENDENCIES:
-  - ZZCategory (from `./`)
+  - ZZLxyCategory (from `./`)
 
 EXTERNAL SOURCES:
-  ZZCategory:
+  ZZLxyCategory:
     :path: "./"
 
 SPEC CHECKSUMS:
-  ZZCategory: 2768df0471a765cdc1756a059655d636858b8824
+  ZZLxyCategory: f71ed94cfc678767d17b01df09e48eb7de43fd9c
 
-PODFILE CHECKSUM: b1418f911717d573ed17bb0c0cd803f7e1a81507
+PODFILE CHECKSUM: 39d2b97be81ebf6ee1e67de42ba4856756478240
 
 COCOAPODS: 1.7.0.beta.1

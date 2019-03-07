@@ -3,6 +3,6 @@
 
 target 'BadView' do
   
-  pod 'ZZCategory',:path=>'./'
+  pod 'ZZLxyCategory',:path=>'./'
 
 end

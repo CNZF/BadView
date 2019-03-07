@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "ZZCategory"
+  spec.name         = "ZZLxyCategory"
   spec.version      = "1.0.1"
   spec.summary      = "三方"
 
@@ -91,10 +91,10 @@ podku
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "BadView/ZZCategory/*.{h,m}"
-  spec.exclude_files = "BadView/ZZCategory/Exclude"
+  spec.source_files  = "BadView/ZZLxyCategory/*.{h,m}"
+  spec.exclude_files = "BadView/ZZLxyCategory/Exclude"
 
-  spec.public_header_files = "BadView/ZZCategory/*.h"
+  spec.public_header_files = "BadView/ZZLxyCategory/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -108,7 +108,7 @@ podku
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
   spec.resource_bundles = {
-     'ZZBundle' => ['BadView/*.xcassets','BadView/*.lproj']
+     'ZZBundle' => ['BadView/ZZLxyCategory/*.xcassets','BadView/*.lproj']
   }
 	
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
