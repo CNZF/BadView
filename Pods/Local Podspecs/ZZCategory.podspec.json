@@ -20,8 +20,8 @@
   "public_header_files": "BadView/ZZCategory/*.h",
   "resource_bundles": {
     "ZZBundle": [
-      "BadView/ZZCategory/**/*.png",
-      "BadView/ZZCategory/Assets/*.png"
+      "BadView/*.xcassets",
+      "BadView/*.lproj"
     ]
   },
   "frameworks": "UIKit",

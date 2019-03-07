@@ -108,8 +108,8 @@ podku
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
   spec.resource_bundles = {
-     'ZZBundle' => ['BadView/ZZCategory/**/*.png','BadView/ZZCategory/Assets/*.png']
- }
+     'ZZBundle' => ['BadView/*.xcassets','BadView/*.lproj']
+  }
 	
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

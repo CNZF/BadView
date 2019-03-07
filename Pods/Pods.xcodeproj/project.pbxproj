@@ -3,15 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		41F570C4A66318F0E62F57D0B811CDFC /* Pods-BadView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 427B766974A326B6AB005CF4B038FB66 /* Pods-BadView-dummy.m */; };
-		A253C12D6A95470651CA054A6C2CFFC8 /* NSString+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B4F61AF6922A4DB69F1081DF70127D /* NSString+Color.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A83732E56D667B99B53E579829C8BDD2 /* W5.png in Resources */ = {isa = PBXBuildFile; fileRef = 59D0B79ACE8D012CAA7AE5A16C0A1CAE /* W5.png */; };
-		D63CB8D4C9056CFADC01738265635F81 /* ZZCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F0FF11792075C9326B64758C329476 /* ZZCategory-dummy.m */; };
-		F72FE8E0925DB48F40F518552F5918D5 /* NSString+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C5DA344F0BBEEE7C1E06E76AEF3DB8 /* NSString+Color.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55BBBC408A6475240F1EAC3BAC0CBAD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D06DA7ACC6C2DBCA09A13B4471A6793 /* Assets.xcassets */; };
+		A253C12D6A95470651CA054A6C2CFFC8 /* NSString+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C0DA6CABE95BB7A9FED95640983100 /* NSString+Color.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D63CB8D4C9056CFADC01738265635F81 /* ZZCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8F13F8FF9B7CAD069F6B28F5BB692D /* ZZCategory-dummy.m */; };
+		F01CA073477658CF71FFBE740DB69396 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C2AD31ACA76935A82C4404814DA8B935 /* Base.lproj */; };
+		F72FE8E0925DB48F40F518552F5918D5 /* NSString+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3906DC9D5E4FB2209F04CF9C6ED357 /* NSString+Color.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,25 +33,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00C0DA6CABE95BB7A9FED95640983100 /* NSString+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Color.m"; path = "BadView/ZZCategory/NSString+Color.m"; sourceTree = "<group>"; };
 		0120B859081EBEBEBBD61EBDA4AA4C44 /* Pods-BadView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BadView-acknowledgements.plist"; sourceTree = "<group>"; };
-		18ABFF55F2D05B5F588A87E83727B703 /* ZZCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZCategory-prefix.pch"; sourceTree = "<group>"; };
+		0879026DE295E5DC5588BDB308BC804D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0A3906DC9D5E4FB2209F04CF9C6ED357 /* NSString+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Color.h"; path = "BadView/ZZCategory/NSString+Color.h"; sourceTree = "<group>"; };
+		2CF652186E75109BDD8B3923F26E3249 /* ResourceBundle-ZZBundle-ZZCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZZBundle-ZZCategory-Info.plist"; sourceTree = "<group>"; };
 		3175E79C0C069D2F288DDEB0373AEE3E /* Pods-BadView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BadView-resources.sh"; sourceTree = "<group>"; };
 		3AD1BEE6CB3F12DB5FC092460439C40C /* ZZBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZZBundle.bundle; path = "ZZCategory-ZZBundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		427B766974A326B6AB005CF4B038FB66 /* Pods-BadView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BadView-dummy.m"; sourceTree = "<group>"; };
 		4D9EB630B3F8EA5F2BC57FE7F05E24F3 /* libPods-BadView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BadView.a"; path = "libPods-BadView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		51E1C254539EAA1BAF041FC567E8026E /* ResourceBundle-ZZBundle-ZZCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZZBundle-ZZCategory-Info.plist"; sourceTree = "<group>"; };
-		55D3E09D459A53A5AEFA84FF2DA9EA66 /* ZZCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZZCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		59D0B79ACE8D012CAA7AE5A16C0A1CAE /* W5.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = W5.png; path = BadView/ZZCategory/W5.png; sourceTree = "<group>"; };
-		6133D592841CBA2D4E537C3E5AAFBD06 /* ZZCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZCategory.xcconfig; sourceTree = "<group>"; };
 		7850BD12F8C072F84A0D933F44D798B1 /* Pods-BadView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadView.release.xcconfig"; sourceTree = "<group>"; };
-		80F0FF11792075C9326B64758C329476 /* ZZCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZCategory-dummy.m"; sourceTree = "<group>"; };
-		90C5DA344F0BBEEE7C1E06E76AEF3DB8 /* NSString+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Color.h"; path = "BadView/ZZCategory/NSString+Color.h"; sourceTree = "<group>"; };
+		8A742FD094A5B7D033B67778884CC406 /* ZZCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZZCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9161FDBF5343BD6DFDA83580F172E1B3 /* ZZCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZCategory-prefix.pch"; sourceTree = "<group>"; };
 		97E309DACC338DEAE1D87DB02B697D8A /* Pods-BadView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BadView-acknowledgements.markdown"; sourceTree = "<group>"; };
 		98E1B719701E6C736DADEC34AA230D2E /* Pods-BadView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BadView.debug.xcconfig"; sourceTree = "<group>"; };
+		9D06DA7ACC6C2DBCA09A13B4471A6793 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BadView/Assets.xcassets; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4B4F61AF6922A4DB69F1081DF70127D /* NSString+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Color.m"; path = "BadView/ZZCategory/NSString+Color.m"; sourceTree = "<group>"; };
-		EAB93A6847C014B1C136F6F68DD52D34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F1320184D48343E3012AB7CD33BF7930 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C2AD31ACA76935A82C4404814DA8B935 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = BadView/Base.lproj; sourceTree = "<group>"; };
+		C55B857426D80A63DBE87BA13B483E04 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DA8F13F8FF9B7CAD069F6B28F5BB692D /* ZZCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZCategory-dummy.m"; sourceTree = "<group>"; };
+		E3F59DD6414723285590CDBE04CF3F2B /* ZZCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZCategory.xcconfig; sourceTree = "<group>"; };
 		F7E0333245D2CBA13D6920AEB1DBF4F5 /* libZZCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZZCategory.a; path = libZZCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51177FB3B0E04DE044AEBD539170C4BD /* ZZCategory */ = {
+			isa = PBXGroup;
+			children = (
+				0A3906DC9D5E4FB2209F04CF9C6ED357 /* NSString+Color.h */,
+				00C0DA6CABE95BB7A9FED95640983100 /* NSString+Color.m */,
+				64436E69C73B664A72E75DDD36544DD7 /* Pod */,
+				9B25D604548FFC01E7D20870B53CC93D /* Resources */,
+				EB68F58E06E0F95F79C8476CE5B133E1 /* Support Files */,
+			);
+			name = ZZCategory;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		5611386425A4699D514D27E43B644B7F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,12 +102,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		568111A299B6A5E8C9D17EE39E3579FF /* Pod */ = {
+		64436E69C73B664A72E75DDD36544DD7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EAB93A6847C014B1C136F6F68DD52D34 /* LICENSE */,
-				F1320184D48343E3012AB7CD33BF7930 /* README.md */,
-				55D3E09D459A53A5AEFA84FF2DA9EA66 /* ZZCategory.podspec */,
+				0879026DE295E5DC5588BDB308BC804D /* LICENSE */,
+				C55B857426D80A63DBE87BA13B483E04 /* README.md */,
+				8A742FD094A5B7D033B67778884CC406 /* ZZCategory.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -121,35 +136,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9AD03CB8EA942DCA99549FD8B1BC2E50 /* Support Files */ = {
+		9B25D604548FFC01E7D20870B53CC93D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				51E1C254539EAA1BAF041FC567E8026E /* ResourceBundle-ZZBundle-ZZCategory-Info.plist */,
-				6133D592841CBA2D4E537C3E5AAFBD06 /* ZZCategory.xcconfig */,
-				80F0FF11792075C9326B64758C329476 /* ZZCategory-dummy.m */,
-				18ABFF55F2D05B5F588A87E83727B703 /* ZZCategory-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/ZZCategory";
-			sourceTree = "<group>";
-		};
-		B1F58B92C52F0251A392AD1C6B15082E /* ZZCategory */ = {
-			isa = PBXGroup;
-			children = (
-				90C5DA344F0BBEEE7C1E06E76AEF3DB8 /* NSString+Color.h */,
-				A4B4F61AF6922A4DB69F1081DF70127D /* NSString+Color.m */,
-				568111A299B6A5E8C9D17EE39E3579FF /* Pod */,
-				B4915E200022731E6971B34D5175A26E /* Resources */,
-				9AD03CB8EA942DCA99549FD8B1BC2E50 /* Support Files */,
-			);
-			name = ZZCategory;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		B4915E200022731E6971B34D5175A26E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				59D0B79ACE8D012CAA7AE5A16C0A1CAE /* W5.png */,
+				9D06DA7ACC6C2DBCA09A13B4471A6793 /* Assets.xcassets */,
+				C2AD31ACA76935A82C4404814DA8B935 /* Base.lproj */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -157,7 +148,7 @@
 		C79816608664F87E583EC77C93156B8F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B1F58B92C52F0251A392AD1C6B15082E /* ZZCategory */,
+				51177FB3B0E04DE044AEBD539170C4BD /* ZZCategory */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -178,6 +169,18 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB68F58E06E0F95F79C8476CE5B133E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CF652186E75109BDD8B3923F26E3249 /* ResourceBundle-ZZBundle-ZZCategory-Info.plist */,
+				E3F59DD6414723285590CDBE04CF3F2B /* ZZCategory.xcconfig */,
+				DA8F13F8FF9B7CAD069F6B28F5BB692D /* ZZCategory-dummy.m */,
+				9161FDBF5343BD6DFDA83580F172E1B3 /* ZZCategory-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/ZZCategory";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +246,7 @@
 			buildPhases = (
 				E0BC4ECFFDE672D7FF8F9DC7C57AAA8D /* Sources */,
 				48D4CBE72447E50985CEB785ABDE5EAF /* Frameworks */,
-				76D51B91F9EE92B8832E1D1E974F8414 /* Resources */,
+				DE2AD4F81644F64A2A0599F445C17B72 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,11 +286,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		76D51B91F9EE92B8832E1D1E974F8414 /* Resources */ = {
+		DE2AD4F81644F64A2A0599F445C17B72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A83732E56D667B99B53E579829C8BDD2 /* W5.png in Resources */,
+				55BBBC408A6475240F1EAC3BAC0CBAD5 /* Assets.xcassets in Resources */,
+				F01CA073477658CF71FFBE740DB69396 /* Base.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +406,7 @@
 		};
 		0CD8AE9E8755B9C8FA0814B6B6F90A61 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6133D592841CBA2D4E537C3E5AAFBD06 /* ZZCategory.xcconfig */;
+			baseConfigurationReference = E3F59DD6414723285590CDBE04CF3F2B /* ZZCategory.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -448,7 +452,7 @@
 		};
 		6235C9D4FD66D15FAB30D824A5A87426 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6133D592841CBA2D4E537C3E5AAFBD06 /* ZZCategory.xcconfig */;
+			baseConfigurationReference = E3F59DD6414723285590CDBE04CF3F2B /* ZZCategory.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZZCategory";
@@ -524,7 +528,7 @@
 		};
 		B27F9E45888B7141EAA68D781122E761 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6133D592841CBA2D4E537C3E5AAFBD06 /* ZZCategory.xcconfig */;
+			baseConfigurationReference = E3F59DD6414723285590CDBE04CF3F2B /* ZZCategory.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -549,7 +553,7 @@
 		};
 		C0ED52197E5B18954DE5742D56E52CAC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6133D592841CBA2D4E537C3E5AAFBD06 /* ZZCategory.xcconfig */;
+			baseConfigurationReference = E3F59DD6414723285590CDBE04CF3F2B /* ZZCategory.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZZCategory";

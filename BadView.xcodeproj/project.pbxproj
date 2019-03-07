@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		8959F224222FBF7200B3D5CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959F223222FBF7200B3D5CD /* main.m */; };
 		8959F22E222FBF7300B3D5CD /* BadViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959F22D222FBF7300B3D5CD /* BadViewTests.m */; };
 		8959F239222FBF7300B3D5CD /* BadViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959F238222FBF7300B3D5CD /* BadViewUITests.m */; };
+		8981AAFF2230AE5000741E27 /* Viewss.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8981AAFD2230AE5000741E27 /* Viewss.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		8959F234222FBF7300B3D5CD /* BadViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8959F238222FBF7300B3D5CD /* BadViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BadViewUITests.m; sourceTree = "<group>"; };
 		8959F23A222FBF7300B3D5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8981AAFE2230AE5000741E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Viewss.xib; sourceTree = "<group>"; };
 		8DDD07756BF425DD4B904A74 /* Pods-BadView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadView.debug.xcconfig"; path = "Target Support Files/Pods-BadView/Pods-BadView.debug.xcconfig"; sourceTree = "<group>"; };
 		B659957238FE776AFC399C62 /* libPods-BadView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BadView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D36814904AB8C22491ACB0 /* Pods-BadView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadView.release.xcconfig"; path = "Target Support Files/Pods-BadView/Pods-BadView.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				8959F21F222FBF7200B3D5CD /* LaunchScreen.storyboard */,
 				8959F222222FBF7200B3D5CD /* Info.plist */,
 				8959F223222FBF7200B3D5CD /* main.m */,
+				8981AAFD2230AE5000741E27 /* Viewss.xib */,
 			);
 			path = BadView;
 			sourceTree = "<group>";
@@ -145,7 +148,6 @@
 				8DDD07756BF425DD4B904A74 /* Pods-BadView.debug.xcconfig */,
 				E5D36814904AB8C22491ACB0 /* Pods-BadView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -262,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8981AAFF2230AE5000741E27 /* Viewss.xib in Resources */,
 				8959F221222FBF7200B3D5CD /* LaunchScreen.storyboard in Resources */,
 				8959F21E222FBF7200B3D5CD /* Assets.xcassets in Resources */,
 				8959F21C222FBF7100B3D5CD /* Main.storyboard in Resources */,
@@ -383,6 +386,14 @@
 				8959F220222FBF7200B3D5CD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8981AAFD2230AE5000741E27 /* Viewss.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8981AAFE2230AE5000741E27 /* Base */,
+			);
+			name = Viewss.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
